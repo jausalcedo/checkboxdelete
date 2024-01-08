@@ -96,6 +96,7 @@ class _ShoppingListAppState extends State<ShoppingListApp> {
   }
 }
 
+// ignore: must_be_immutable
 class Items extends StatefulWidget {
   Items(this.item, this.status, {super.key});
 
